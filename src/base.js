@@ -3,9 +3,12 @@ import Rebase from "re-base";
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "yourAPIkey",
-  authDomain: "wedding-demo-9ff33.firebaseapp.com",
-  databaseURL: "https://wedding-demo-9ff33.firebaseio.com"
+    apiKey: "AIzaSyAFsibJxpAjQzye6C0QL9_ktCCEEaHieSQ",
+    authDomain: "wedding-site-cf97d.firebaseapp.com",
+    databaseURL: "https://wedding-site-cf97d.firebaseio.com",
+    projectId: "wedding-site-cf97d",
+    storageBucket: "wedding-site-cf97d.appspot.com",
+    messagingSenderId: "554285340143"
 });
 
 //created the firebase binding
